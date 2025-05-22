@@ -9,8 +9,7 @@
 - Cleans up temporary files
 
 
-```
-What the sed command does:
+#### What the sed command does:
 ```sed -i.bak '/pull_request:/,/^[[:space:]]*$/{
     /pull_request:/,/^[[:space:]]*branches:/s/^/# /
     /^[[:space:]]*branches:/,/^[[:space:]]*-.*\(main\|staging\)/{
