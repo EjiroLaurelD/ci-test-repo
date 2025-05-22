@@ -18,7 +18,7 @@
     }
 }'
 ```
-Breakdown:
+#### Breakdown:
 
 ```/pull_request:/,/^[[:space:]]*$/```  Finds the pull_request section until an empty line
 ```[[:space:]]*``` -Matches any amount of whitespace (spaces, tabs)
